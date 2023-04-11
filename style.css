@@ -38,6 +38,7 @@ main h2{
 }
 
 .game button{
+    font-weight: bold;
     margin: 10%;
     display: flex;
     align-items: center;
