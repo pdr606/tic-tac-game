@@ -41,7 +41,7 @@ let ganhouX = false /* Declaro a variavel para saber se o X ganhou*/
 let ganhouO = false /* Declaro a variavel para saber se o O ganhou */
 
 function check(){
-    if (playerX.length == 4 && playerO.length == 4){
+    if (playerX.length == 5 || playerO.length == 5){
         window.alert('Empate')
         limpar()
     } else{
